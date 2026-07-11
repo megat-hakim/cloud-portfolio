@@ -194,9 +194,11 @@ h3 {
 }
 
 h1 {
-  max-width: 920px;
-  font-size: clamp(4rem, 10vw, 9.4rem);
+  max-width: 100%;
+  font-size: clamp(4rem, 7.2vw, 7.5rem);
   font-weight: 900;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 h2 {
@@ -405,6 +407,50 @@ dd {
   padding: 24px;
 }
 
+.credential-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 245px;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.credential-card:hover,
+.credential-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 26px 70px rgba(16, 16, 16, 0.12);
+}
+
+.credential-card:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.credential-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  width: fit-content;
+  margin-top: auto;
+  padding-top: 24px;
+  border-bottom: 1px solid currentColor;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.credential-link span {
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.credential-card:hover .credential-link span,
+.credential-card:focus-visible .credential-link span {
+  transform: translate(2px, -2px);
+}
+
 .card-label {
   margin-bottom: 14px;
 }
@@ -476,8 +522,8 @@ dd {
 }
 
 .project-card.muted {
-  background: transparent;
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow);
 }
 
 .project-topline {
@@ -665,7 +711,7 @@ dd {
   }
 
   h1 {
-    font-size: clamp(3.3rem, 18vw, 5.2rem);
+    font-size: clamp(3rem, 12vw, 4.25rem);
   }
 
   .hero-actions,
