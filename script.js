@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const copyButton = document.getElementById("copy-email");
+  const copyButton = document.querySelector("[data-copy-email]");
   const email = "megathakim05@gmail.com";
 
   if (!copyButton) {
-    console.error("Copy email button was not found.");
+    console.error("Copy email button not found.");
     return;
   }
 
@@ -11,17 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const originalText = copyButton.textContent;
 
     try {
-      // Modern method for HTTPS websites
       if (navigator.clipboard && window.isSecureContext) {
         await navigator.clipboard.writeText(email);
       } else {
-        // Fallback for your current HTTP EC2 website
         const textArea = document.createElement("textarea");
 
         textArea.value = email;
         textArea.style.position = "fixed";
         textArea.style.left = "-9999px";
-        textArea.style.opacity = "0";
 
         document.body.appendChild(textArea);
         textArea.focus();
@@ -31,14 +28,14 @@ document.addEventListener("DOMContentLoaded", () => {
         textArea.remove();
 
         if (!copied) {
-          throw new Error("Browser rejected the copy command.");
+          throw new Error("Copy command failed.");
         }
       }
 
-      copyButton.textContent = "COPIED!";
+      copyButton.textContent = "Copied!";
     } catch (error) {
       console.error("Unable to copy email:", error);
-      copyButton.textContent = "COPY FAILED";
+      copyButton.textContent = "Copy failed";
     }
 
     setTimeout(() => {
