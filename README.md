@@ -1,10 +1,10 @@
-# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation. \/
+# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation.
 
 ----
 
 # Automated Resume Deployment on AWS EC2
 
-![Final Resume Website](<img width="1917" height="972" alt="image" src="https://github.com/user-attachments/assets/c1705ba5-e84e-49ba-b9f2-145a4af93baa" />)
+
 
 ## Project Overview
 
@@ -109,6 +109,6 @@ project was completed to prevent ongoing AWS charges.
 
 Click the image below to watch the full portfolio walkthrough.
 
-[![Click here](screenshots/portfolio-demo-thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
+[View the automated resume website demonstration](RELEASE_LINK)
 
 
