@@ -1,5 +1,6 @@
 # The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation.
 
+----
 
 # Automated Resume Deployment on AWS EC2
 
