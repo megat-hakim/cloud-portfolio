@@ -109,6 +109,6 @@ project was completed to prevent ongoing AWS charges.
 
 Click the link below to watch the full portfolio walkthrough.
 
-[Demonstration here](sha256:14614df2b9bd54d84c0ec2e5f21bd9a1015ab505aa955f59caddf469e0865653)
+[▶ View the automated resume website demonstration](sha256:14614df2b9bd54d84c0ec2e5f21bd9a1015ab505aa955f59caddf469e0865653)
 
 
