@@ -1,6 +1,9 @@
+# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation.
+
+
 # Automated Resume Deployment on AWS EC2
 
-![Final Resume Website](screenshots/final-website.png)
+![Final Resume Website](<img width="1917" height="972" alt="image" src="https://github.com/user-attachments/assets/c1705ba5-e84e-49ba-b9f2-145a4af93baa" />)
 
 ## Project Overview
 
@@ -8,19 +11,10 @@ Built and deployed a responsive resume website on Ubuntu EC2
 instance using Apache. Automated the deployment process using GitHub
 Actions and SSH.
 
-# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation.
-
 ## Architecture
 
-GitHub Repository  
-↓  
-GitHub Actions  
-↓ SSH deployment  
-Ubuntu EC2 Instance  
-↓  
-Apache Web Server  
-↓  
-Resume Website
+<img width="1707" height="917" alt="image" src="https://github.com/user-attachments/assets/5e8ad203-c9f3-4513-8659-0d80b370cde3" />
+
 
 ## Technologies Used
 
@@ -57,7 +51,7 @@ Resume Website
 
 ### EC2 Instance
 
-![EC2 Instance](screenshots/ec2-instance.png)
+![EC2 Instance](<img width="1707" height="917" alt="image" src="https://github.com/user-attachments/assets/f247ac2c-c8de-4f3d-a9cf-d0f5f7e422c4" />)
 
 ### Apache Server Test
 
@@ -109,7 +103,10 @@ project was completed to prevent ongoing AWS charges.
 - Cloud cost management
 
 
-# Final look
+## Project Demo
 
+Click the image below to watch the full portfolio walkthrough.
+
+[![Click here](screenshots/portfolio-demo-thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
 
 
