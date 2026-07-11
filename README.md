@@ -1,4 +1,4 @@
-# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation.
+# The live EC2 environment was removed after testing to avoid ongoing cloud costs. This repository documents the complete implementation. \/
 
 ----
 
@@ -14,7 +14,8 @@ Actions and SSH.
 
 ## Architecture
 
-<img width="1707" height="917" alt="image" src="https://github.com/user-attachments/assets/5e8ad203-c9f3-4513-8659-0d80b370cde3" />
+<img width="1448" height="1086" alt="ArchitectureDiagram" src="https://github.com/user-attachments/assets/e9e2289d-988d-40a9-800a-673deda60f20" />
+
 
 
 ## Technologies Used
