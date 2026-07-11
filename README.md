@@ -109,6 +109,13 @@ project was completed to prevent ongoing AWS charges.
 
 Click the link below to watch the full portfolio walkthrough.
 
-[▶ View the automated resume website demonstration](sha256:14614df2b9bd54d84c0ec2e5f21bd9a1015ab505aa955f59caddf469e0865653)
+[Demo here]([sha256:14614df2b9bd54d84c0ec2e5f21bd9a1015ab505aa955f59caddf469e0865653](https://github.com/megat-hakim/cloud-portfolio/releases/download/portfolio-demo/Sequence.03.mp4))
+
+
+----
+
+## AI-Assisted Development
+
+Used Codex to help with frontend development. Generate and improve parts of the HTML, CSS, and JavaScript.
 
 
