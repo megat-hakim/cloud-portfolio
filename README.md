@@ -97,7 +97,9 @@ The stylesheet filename did not match the filename referenced by
 
 Click the link below to watch the full portfolio walkthrough.
 
-[Demo here](https://github.com/megat-hakim/cloud-portfolio/releases/download/portfolio-demo/Sequence.03.mp4)
+![Watch from youtube]((https://youtu.be/2LQLv_FEWm8))
+
+[Download here](https://github.com/megat-hakim/cloud-portfolio/releases/download/portfolio-demo/Sequence.03.mp4)
 
 
 ----
