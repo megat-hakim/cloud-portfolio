@@ -8,9 +8,7 @@
 
 ## Project Overview
 
-Built and deployed a responsive resume website on Ubuntu EC2
-instance using Apache. Automated the deployment process using GitHub
-Actions and SSH.
+Built and deployed a responsive resume website on Ubuntu EC2 instance using Apache. Automated the deployment process using GitHub Actions and SSH.
 
 ## Architecture
 
@@ -49,15 +47,17 @@ Actions and SSH.
 
 ### GitHub Actions Deployment
 
-![GitHub Actions](screenshots/github-actions-success.png)
+<img width="1918" height="972" alt="github_actions" src="https://github.com/user-attachments/assets/358d08b1-a866-4d22-be13-a4fde2a37c9e" />
+
 
 ### EC2 Instance
 
-![EC2 Instance](<img width="1707" height="917" alt="image" src="https://github.com/user-attachments/assets/f247ac2c-c8de-4f3d-a9cf-d0f5f7e422c4" />)
+<img width="1707" height="917" alt="image" src="https://github.com/user-attachments/assets/f247ac2c-c8de-4f3d-a9cf-d0f5f7e422c4" />
 
 ### Apache Server Test
 
-![Apache Test](screenshots/apache-test.png)
+<img width="1661" height="772" alt="ec2_commandrun" src="https://github.com/user-attachments/assets/a77bdfb9-ad12-4ea5-840a-cbb3f927aa37" />
+
 
 ## Challenges and Solutions
 
@@ -71,15 +71,9 @@ The EC2 Security Group originally allowed only SSH traffic.
 
 <img width="1620" height="740" alt="inbound_security" src="https://github.com/user-attachments/assets/aadbfb65-47db-4442-8187-e4cf0d8dec65" />
 
-### GitHub Actions did not start
-
-The workflow file was located in the wrong folder.
-
-**Solution:** Moved the workflow to:
-
-`.github/workflows/deploy.yml`
-
 ### Website loaded without styling
+
+<img width="1777" height="882" alt="WebsiteNoStyling1" src="https://github.com/user-attachments/assets/05d0374b-5747-415c-bcf9-9a7c1f1e29b1" />
 
 <img width="1900" height="901" alt="WebsiteNoStyling" src="https://github.com/user-attachments/assets/21b9999a-ceaf-427f-acd2-d5fadd8c3fe9" />
 
@@ -89,10 +83,6 @@ The stylesheet filename did not match the filename referenced by
 
 **Solution:** Corrected the CSS filename and updated the CSS selectors.
 
-## Cost Management
-
-The EC2 instance and associated resources were terminated after the
-project was completed to prevent ongoing AWS charges.
 
 ## What I Learned
 
@@ -102,20 +92,18 @@ project was completed to prevent ongoing AWS charges.
 - GitHub Actions deployment
 - SSH key authentication
 - Security Group troubleshooting
-- Cloud cost management
-
 
 ## Project Demo
 
 Click the link below to watch the full portfolio walkthrough.
 
-[Demo here]([sha256:14614df2b9bd54d84c0ec2e5f21bd9a1015ab505aa955f59caddf469e0865653](https://github.com/megat-hakim/cloud-portfolio/releases/download/portfolio-demo/Sequence.03.mp4))
+[Demo here](https://github.com/megat-hakim/cloud-portfolio/releases/download/portfolio-demo/Sequence.03.mp4)
 
 
 ----
 
 ## AI-Assisted Development
 
-Used Codex to help with frontend development. Generate and improve parts of the HTML, CSS, and JavaScript.
+Used Codex to help with frontend development. Generate and improve parts of the HTML, CSS and JavaScript. Generated code was reviewed, tested and modified.
 
 
