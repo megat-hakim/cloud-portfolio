@@ -4,6 +4,7 @@
 
 # Automated Resume Deployment on AWS EC2
 
+<img width="1917" height="972" alt="FinalLook" src="https://github.com/user-attachments/assets/91b59834-06c8-484d-ac7b-a8815eb5ceee" />
 
 
 ## Project Overview
